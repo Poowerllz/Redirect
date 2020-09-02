@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: none;
+
+}
+
+header{
+display: relative;
+
+}
+
+
+header a h1{
+
+margin-left: 2.5em;
+font-family: 'Lobster', cursive;
+font-size: 400%;
+font-style: bold;
+color: white;
+text-decoration: underline;
+
+padding: 0em  0.5em  0.2em 0.5em;
+border-radius: 8px;
+}
+
+header a h1:hover{
+    transition-duration: 500ms;
+    background-color: black;
+    border: solid;
+    border-color: white;
+}
+
+
+html {
+ background-image: url("./Assets/Background.png");
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body a .items  h3{
+    outline: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 1em;
+    text-decoration: none;
+    margin-left: 5em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body a{
+    text-decoration:none;
+    height: 6em;
+    width: 25em;
+    margin-top: 20px;
+    
+}
+
+body a .items{
+    display: flex;
+    align-items: center;
+    justify-items: right;
+    height: 5.5em;
+    width: 35em;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 0;
+    
+}
+
+body a .items:hover{
+transition-duration: 500ms;
+background-color: red;
+
+}
+
+body a .items span img{
+    border-radius: 10px;
+    width: 4.5em;
+}
+
+body a .items span{
+    padding-top: 0.4em;
+    padding-left: 1em;
+}
+
