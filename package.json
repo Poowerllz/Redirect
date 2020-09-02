@@ -1,0 +1,25 @@
+{
+  "name": "Redirect",
+  "version": "1.0.1",
+  "description": "Exploração de ferramentas do front-end. ( CSS - HTML - JS )",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poowerllz/Redirect.git"
+  },
+  "author": "Poowerllz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poowerllz/Redirect/issues"
+  },
+  "homepage": "https://github.com/Poowerllz/Redirect#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2"
+  }
+}
